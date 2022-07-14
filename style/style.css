@@ -36,3 +36,56 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+img {
+    width: 400px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-list {
+    position: absolute;
+    top: 2rem;
+    right: 3rem;
+}
+
+.link-list > a {
+    text-decoration: none;
+    padding: 4px;
+    color: grey;
+}
+
+.link-list > a:hover {
+    text-decoration: underline;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: 3rem;
+    bottom: 2rem;
+}
+
+.right-side > h1 {
+    padding: 10px;
+}
+
+.content {
+    background-color: lightgrey;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.315);
+}
