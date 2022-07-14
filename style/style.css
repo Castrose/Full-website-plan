@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.side-menu {
+    position: absolute;
+    background-color: #d3d3d3;
+    height: 100vh;
+    transition: width 0.2s ease;
+}
+
+.icon {
+    position: relative;
+    padding: 25px;
+    transition:500ms ease;
+    transform: rotate(0deg);
+    font-size: 25px;
+}
+
+.icon:hover {
+    transform: rotate(180deg);
+    transition: 500ms ease-in-out;
+}
+
+
+.icons {
+    display: flex;
+    flex-direction: column;
+}
